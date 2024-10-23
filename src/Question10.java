@@ -8,7 +8,7 @@ public class Question10 {
         {
             sum += num[i];
         }
-        result = sum/5;
+        result = sum/num.length;
         System.out.println("요소들의 평균: " + result);
     }
 }
