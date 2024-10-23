@@ -6,7 +6,7 @@ public class Question10 {
 
         for(int i = 0; i < num.length; i++)
         {
-            sum = sum + num[i];
+            sum += num[i];
         }
         result = sum/5;
         System.out.println("요소들의 평균: " + result);
